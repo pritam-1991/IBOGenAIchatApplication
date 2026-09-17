@@ -10,7 +10,7 @@ import { questions } from '../test-data/questions';
 
 
 // =====================================================
-// TEST TIMEOUT
+// TEST TIMEOUTt
 // =====================================================
 
 // 100 questions can take a long time.

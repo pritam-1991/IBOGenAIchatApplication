@@ -6,7 +6,7 @@ dotenv.config();
 test('GenAI Application - Login', async ({ page }) => {
 
     // Step 1: Open GenAI application
-await page.goto('https://genai-assistant-sit.ibo.org/home');
+await page.goto('https://genai-assistant-uat.ibo.org/home');
 
 // Step 2: Wait for SSO username field
 await page.locator('#username').waitFor({
