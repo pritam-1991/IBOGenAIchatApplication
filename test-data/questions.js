@@ -136,7 +136,7 @@ export const questions = [
      {
         id: 14,
 
-        programme: 'All',
+        programme: 'PYQ',
 
         language: 'All',
 
