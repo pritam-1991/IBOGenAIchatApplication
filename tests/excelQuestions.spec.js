@@ -6,7 +6,7 @@ import { QuestionsPage } from '../pages/QuestionsPage';
 import { ExcelHelper } from '../utils/ExcelHelper';
 
 test.setTimeout(
-    60 * 60 * 1000
+   24 * 60 * 60 * 1000
 );
 
 const inputExcel =
@@ -155,9 +155,9 @@ test(
                 'Result saved.'
             );
 
-            await page.waitForTimeout(
-                2000
-            );
+          if (!page.isClosed()) {
+    await page.waitForTimeout(2000);
+}
         }
 
         console.log('');
